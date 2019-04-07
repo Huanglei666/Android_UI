@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <!--     注意：string的第一个字母为小写，string.xml文件中也是！！！ -->
+    <item android:title="字体大小">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/font_10"
+                    android:title="小号"
+                    />
+                <item
+                    android:id="@+id/font_16"
+                    android:title="中号"/>
+                <item
+                    android:id="@+id/font_20"
+                    android:title="大号"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/normal_menu"
+        android:title="普通菜单选项">
+    </item>
+
+    <item android:title="字体颜色">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/red"
+                    android:title="Red"
+                    />
+                <item
+                    android:id="@+id/black"
+                    android:title="Black"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

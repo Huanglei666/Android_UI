@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+    android:id="@+id/SimpleAdapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SimpleaAapter" />
+    <Button
+        android:id="@+id/AlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/SimpleAdapter"
+        android:text="AlertDialog" />
+    <Button
+        android:id="@+id/XmlMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/AlertDialog"
+        android:text="XmlMenu" />
+    <Button
+        android:id="@+id/Context_Menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/XmlMenu"
+        android:text="ContextMenu" />
+
+</android.support.constraint.ConstraintLayout>
